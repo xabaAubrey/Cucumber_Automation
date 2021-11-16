@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="339359" started-at="2021-11-16T17:02:07 CAT" finished-at="2021-11-16T17:07:46 CAT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@3fd7a715]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerBackground@2d6eabae]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerDatatable@64729b1e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerHooks@10bbd20a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerMulipleScenario@48503868]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerMulti@6895a785]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerParameterization@1f7030a6]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerShareData@5a1c0542]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerTags@396f6598]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerdatadriven@4e7dc304]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="339359" started-at="2021-11-16T17:02:07 CAT" finished-at="2021-11-16T17:07:46 CAT">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@3fd7a715]" name="setUpClass" is-config="true" duration-ms="602" started-at="2021-11-16T17:02:07 CAT" finished-at="2021-11-16T17:02:07 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@3fd7a715]" name="feature" duration-ms="501" started-at="2021-11-16T17:02:08 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:02:08 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginFeature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@3fd7a715]" name="feature" duration-ms="16337" started-at="2021-11-16T17:02:08 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:02:24 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@3fd7a715]" name="tearDownClass" is-config="true" duration-ms="648" started-at="2021-11-16T17:02:24 CAT" finished-at="2021-11-16T17:02:25 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+      <class name="Runner.TestRunnerdatadriven">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerdatadriven@4e7dc304]" name="setUpClass" is-config="true" duration-ms="28" started-at="2021-11-16T17:02:56 CAT" finished-at="2021-11-16T17:02:56 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerdatadriven@4e7dc304]" name="feature" duration-ms="32443" started-at="2021-11-16T17:02:56 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:03:29 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerdatadriven@4e7dc304]" name="tearDownClass" is-config="true" duration-ms="218" started-at="2021-11-16T17:03:29 CAT" finished-at="2021-11-16T17:03:29 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerdatadriven -->
+      <class name="Runner.TestRunnerTags">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerTags@396f6598]" name="setUpClass" is-config="true" duration-ms="25" started-at="2021-11-16T17:06:45 CAT" finished-at="2021-11-16T17:06:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerTags@396f6598]" name="feature" duration-ms="61252" started-at="2021-11-16T17:06:45 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:07:46 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerTags@396f6598]" name="tearDownClass" is-config="true" duration-ms="302" started-at="2021-11-16T17:07:46 CAT" finished-at="2021-11-16T17:07:46 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerTags -->
+      <class name="Runner.TestRunnerMulipleScenario">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerMulipleScenario@48503868]" name="setUpClass" is-config="true" duration-ms="23" started-at="2021-11-16T17:04:14 CAT" finished-at="2021-11-16T17:04:14 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerMulipleScenario@48503868]" name="feature" duration-ms="31072" started-at="2021-11-16T17:04:14 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:04:45 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerMulipleScenario@48503868]" name="tearDownClass" is-config="true" duration-ms="260" started-at="2021-11-16T17:04:45 CAT" finished-at="2021-11-16T17:04:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerMulipleScenario -->
+      <class name="Runner.TestRunnerMulti">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerMulti@6895a785]" name="setUpClass" is-config="true" duration-ms="46" started-at="2021-11-16T17:04:45 CAT" finished-at="2021-11-16T17:04:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerMulti@6895a785]" name="feature" duration-ms="15538" started-at="2021-11-16T17:04:45 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:05:01 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate first and last name5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerMulti@6895a785]" name="feature" duration-ms="10109" started-at="2021-11-16T17:05:01 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:05:11 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate search of Google6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerMulti@6895a785]" name="feature" duration-ms="32423" started-at="2021-11-16T17:05:11 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:05:43 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerMulti@6895a785]" name="tearDownClass" is-config="true" duration-ms="290" started-at="2021-11-16T17:05:43 CAT" finished-at="2021-11-16T17:05:43 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerMulti -->
+      <class name="Runner.TestRunnerHooks">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerHooks@10bbd20a]" name="setUpClass" is-config="true" duration-ms="49" started-at="2021-11-16T17:03:42 CAT" finished-at="2021-11-16T17:03:42 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerHooks@10bbd20a]" name="feature" duration-ms="30972" started-at="2021-11-16T17:03:42 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:04:13 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerHooks@10bbd20a]" name="tearDownClass" is-config="true" duration-ms="272" started-at="2021-11-16T17:04:13 CAT" finished-at="2021-11-16T17:04:14 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerHooks -->
+      <class name="Runner.TestRunnerParameterization">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerParameterization@1f7030a6]" name="setUpClass" is-config="true" duration-ms="39" started-at="2021-11-16T17:05:43 CAT" finished-at="2021-11-16T17:05:43 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerParameterization@1f7030a6]" name="feature" duration-ms="32103" started-at="2021-11-16T17:05:43 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:06:16 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerParameterization@1f7030a6]" name="tearDownClass" is-config="true" duration-ms="247" started-at="2021-11-16T17:06:16 CAT" finished-at="2021-11-16T17:06:16 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerParameterization -->
+      <class name="Runner.TestRunnerShareData">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerShareData@5a1c0542]" name="setUpClass" is-config="true" duration-ms="38" started-at="2021-11-16T17:06:16 CAT" finished-at="2021-11-16T17:06:16 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerShareData@5a1c0542]" name="feature" duration-ms="28415" started-at="2021-11-16T17:06:16 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:06:44 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerShareData@5a1c0542]" name="tearDownClass" is-config="true" duration-ms="240" started-at="2021-11-16T17:06:44 CAT" finished-at="2021-11-16T17:06:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerShareData -->
+      <class name="Runner.TestRunnerBackground">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerBackground@2d6eabae]" name="setUpClass" is-config="true" duration-ms="65" started-at="2021-11-16T17:02:25 CAT" finished-at="2021-11-16T17:02:25 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerBackground@2d6eabae]" name="feature" duration-ms="30848" started-at="2021-11-16T17:02:25 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:02:56 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerBackground@2d6eabae]" name="tearDownClass" is-config="true" duration-ms="244" started-at="2021-11-16T17:02:56 CAT" finished-at="2021-11-16T17:02:56 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerBackground -->
+      <class name="Runner.TestRunnerDatatable">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunnerDatatable@64729b1e]" name="setUpClass" is-config="true" duration-ms="53" started-at="2021-11-16T17:03:29 CAT" finished-at="2021-11-16T17:03:29 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunnerDatatable@64729b1e]" name="feature" duration-ms="13126" started-at="2021-11-16T17:03:29 CAT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-11-16T17:03:42 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create account of FaceBook3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunnerDatatable@64729b1e]" name="tearDownClass" is-config="true" duration-ms="233" started-at="2021-11-16T17:03:42 CAT" finished-at="2021-11-16T17:03:42 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunnerDatatable -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

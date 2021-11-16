@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate create user multiple fields31",
+        "description": "",
+        "id": "create-account-of-facebook3;validate-create-user-multiple-fields31",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8100622099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to be on Facebook login page",
+            "match": {
+              "location": "DatatableSD.userNeedsToBeOnFacebookLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1217050300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on button Create New Account",
+            "match": {
+              "location": "DatatableSD.userClicksOnButtonCreateNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2423626500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter following data",
+            "match": {
+              "location": "DatatableSD.enterFollowingData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "userSurname",
+                  "Mobile"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Linda",
+                  "Xaba",
+                  "12345"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Than",
+                  "Xulu",
+                  "12345"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1359183501,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "DatatableSD.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of FaceBook3",
+    "description": "As a user you need to open facebook home  page and to the validation",
+    "id": "create-account-of-facebook3",
+    "keyword": "Feature",
+    "uri": "DatatableFF.feature"
+  }
+]

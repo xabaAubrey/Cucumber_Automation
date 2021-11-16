@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "common login steps11",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8062241400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to be on Facebook login page",
+            "match": {
+              "location": "BackgroundSD.userNeedsToBeOnFacebookLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Validate First Name field",
+        "description": "",
+        "id": "create-account-of-facebook1;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1228802799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on button Create New Account",
+            "match": {
+              "location": "BackgroundSD.userClicksOnButtonCreateNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2180504099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters user \"Donald\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Donald",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.userEntersUserFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1070626900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User checks user \"Donald\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Donald",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.userChecksUserFirstNameIsPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1603305699,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "BackgroundSD.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "common login steps11",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8266315700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to be on Facebook login page",
+            "match": {
+              "location": "BackgroundSD.userNeedsToBeOnFacebookLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate create user multiple fields12",
+        "description": "",
+        "id": "create-account-of-facebook1;validate-create-user-multiple-fields12",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1154028700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on button Create New Account",
+            "match": {
+              "location": "BackgroundSD.userClicksOnButtonCreateNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2099555900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user \"Linda\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Linda",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.userEntersUserFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1287042900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters user \"Xaba\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xaba",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.userEntersUserSurname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1061195200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User checks user \"Linda\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Linda",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.userChecksUserFirstNameIsPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1054754100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Mobile field should be blank",
+            "match": {
+              "location": "BackgroundSD.userMobileFieldShouldBeBlank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1718362600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close browser",
+            "match": {
+              "location": "BackgroundSD.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of FaceBook1",
+    "description": "As a user you need to open facebook home  page and to the validation",
+    "id": "create-account-of-facebook1",
+    "keyword": "Feature",
+    "uri": "Background.feature"
+  }
+]

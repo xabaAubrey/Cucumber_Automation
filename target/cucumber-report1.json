@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with the correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-the-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 148530300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginDef.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username as admin and password as admin",
+            "match": {
+              "location": "LoginDef.iEnterTheUsernameAsAdminAndPasswordAsAdmin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginDef.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginDef.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "\r\nThis feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate First Name field",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13640292999,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to be on Facebook login page",
+            "match": {
+              "location": "MyStepdefs.userNeedsToBeOnFacebookLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175386199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on button Create New Account",
+            "match": {
+              "location": "MyStepdefs.userClicksOnButtonCreateNewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1130505000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MyStepdefs.userEntersUserFirstName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1373874700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User checks user first name is present",
+            "match": {
+              "location": "MyStepdefs.userChecksUserFirstNameIsPresent()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of FaceBook",
+    "description": "As a user you need to open facebook home  page and to the validation",
+    "id": "create-account-of-facebook",
+    "keyword": "Feature",
+    "uri": "MySecondFeatureFile.feature"
+  }
+]
